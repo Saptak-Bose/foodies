@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "foodies",
+    "name": "Foodies",
     "slug": "foodies",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/images/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./src/assets/images/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,14 +17,28 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./src/assets/images/logo.png",
+        "backgroundImage": "./src/assets/images/logo.png",
+        "monochromeImage": "./src/assets/images/logo.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./src/assets/images/logo.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "src/assets/fonts/Okra-Regular.ttf",
+            "src/assets/fonts/Okra-Medium.ttf",
+            "src/assets/fonts/Okra-MediumLight.ttf",
+            "src/assets/fonts/Okra-Bold.ttf",
+            "src/assets/fonts/Okra-ExtraBold.ttf"
+          ]
+        }
+      ]
+    ]
   }
 }
