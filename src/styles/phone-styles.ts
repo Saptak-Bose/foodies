@@ -39,6 +39,7 @@ export const phoneStyles = StyleSheet.create({
     flexDirection: "row",
     gap: 10,
     alignItems: "center",
+    justifyContent: "space-between",
   },
   input: {
     height: 45,
